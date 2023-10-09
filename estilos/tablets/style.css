@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+
+    header > .box-logo{
+        display: block;
+        margin-right: 20em;
+        padding: 10px 13px;
+        background: linear-gradient(45deg,var(--cor-principal),var(--cor-secundaria));
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-weight: bold;
+        border: 1px solid var(--cor-principal);
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px white;
+    }
+
+    main {
+        margin-top: 3em;
+    }
+
+    main > .sobre {
+        display: flex;
+    }
+
+    main > .sobre > .texto{
+        padding: 10px;
+        margin-inline: 20px;
+    }
+
+    main > .box-habilidades {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main > .box-habilidades > h1 {
+        font-size: 3em;
+       grid-column: span 2;
+    }
+
+    main > .box-habilidades > fieldset{
+        margin: 10px;
+    }
+    main > .box-habilidades > fieldset > div > img{
+        width: 80px;
+    }
+
+    main > .box-projetos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    main > .box-projetos > h1{
+        font-size: 3em;
+        grid-column: span 2;
+    }
+    main > .box-projetos > div > button{
+        height: 45px;        
+    }
+}
