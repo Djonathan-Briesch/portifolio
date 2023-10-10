@@ -25,6 +25,9 @@
         padding: 10px;
         margin-inline: 20px;
     }
+    main > .sobre > .texto > h1{
+        text-align: start;
+    }
 
     main > .box-habilidades {
         display: grid;

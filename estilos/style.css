@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
 /*  Mobile  */
-
 @import url(mobile/style.css);
+/*  Tablets  */
 @import url(tablets/style.css);
+/*  Desktop  */
 @import url(desktop/style.css);
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,21 +20,8 @@
 }
 
 @font-face {
-    font-family: "font-especial2";
-    src: url(../fonts/milky_coffee/Milky\ Coffee.ttf);
-}
-@font-face {
     font-family: "font-paragrafos";
     src: url(../fonts/calling_code/CallingCode-Regular.ttf);
-}
-@font-face {
-    font-family: "font-especial";
-    src: url(../fonts/cloister_black/CloisterBlack.ttf);
-}
-
-@font-face {
-    font-family: "font-titulo";
-    src: url(../fonts/mom/Mom«t___.ttf);
 }
 
 body{
@@ -44,17 +33,6 @@ body{
     background-attachment: fixed;
 }
 
-/* h1,
-h2 {
-  font-family: "font-titulo", sans-serif;
-}
-
-p,
-legend {
-  font-family: "font-paragrafos", sans-serif;
-  text-align: justify;
-} */
-
-.perfil{
-    width: 20px;
+h1,h2,p,legend{
+    font-family: "font-paragrafos";
 }

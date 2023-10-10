@@ -32,5 +32,6 @@
   main > .sobre > .texto > h1 {
     margin-bottom: 30px;
     font-size: 2em;
+    align-self: flex-start;
   }
 }

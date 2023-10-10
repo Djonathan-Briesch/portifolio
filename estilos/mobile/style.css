@@ -34,17 +34,20 @@ main > .sobre {
   backdrop-filter: blur(70px);
 }
 
+
 main > .sobre > .texto > h1 {
-  margin-block: 20px;
-  text-shadow: 1px 1px 3px black;
+  margin: 15px;
+  font-weight: normal;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.7em;
-  line-height: 1.6em;
 }
 
-main > .sobre > .texto > h1 > span {
+main > .sobre > .texto > h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 3em;
+  line-height: 1em;
   color: var(--cor-secundaria);
+  text-align: center;
 }
 
 main > .sobre > .texto > p {
@@ -52,6 +55,7 @@ main > .sobre > .texto > p {
   text-indent: 40px;
   text-shadow: 1px 1px 2px black;
   line-height: 1.6em;
+  font-family: "font-paragrafo";
 }
 
 main > .sobre > .imagem {
@@ -85,8 +89,8 @@ main > .sobre > .imagem > a > button {
   cursor: pointer;
 }
 
-main > .sobre > .imagem > a > button:hover{
-  opacity: .8;
+main > .sobre > .imagem > a > button:hover {
+  opacity: 0.8;
 }
 
 main > .box-habilidades {
@@ -96,9 +100,10 @@ main > .box-habilidades {
 main > .box-habilidades > h1 {
   margin: 30px;
   padding: 10px;
-  font-size: 2em;
+  font-weight: normal;
   text-align: center;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 5px black;
+  font-family: "font-titulo";
 }
 
 main > .box-habilidades > fieldset {
@@ -111,7 +116,6 @@ main > .box-habilidades > fieldset {
   align-items: center;
   border: 1px solid white;
   border-radius: 5px;
-  border-top: px double white;
 }
 
 main > .box-habilidades > fieldset > legend {
