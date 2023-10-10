@@ -70,7 +70,7 @@ main > .sobre > .imagem > img {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-main > .sobre > .imagem > button {
+main > .sobre > .imagem > a > button {
   height: 40px;
   width: 200px;
   border: 1px solid var(--cor-complementar);
@@ -82,6 +82,11 @@ main > .sobre > .imagem > button {
   color: white;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
   margin-block: 15px;
+  cursor: pointer;
+}
+
+main > .sobre > .imagem > a > button:hover{
+  opacity: .8;
 }
 
 main > .box-habilidades {
